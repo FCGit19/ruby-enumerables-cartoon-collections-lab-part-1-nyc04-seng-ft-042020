@@ -14,6 +14,8 @@ end
 # Print a numbered list of each element
 
 def list_dwarves(array)
-  array.each_with_index {|element, index|}
+  array.each_with_index {|element, index|
+    
+  }
   puts "(index + 1) + . + #{element}"
 end
